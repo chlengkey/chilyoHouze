@@ -1,13 +1,10 @@
 package com.example.myapplication.Payment;
 
-import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.DatePicker;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -16,27 +13,20 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.myapplication.Adapters.MainServiceVendorOnlineAdapter;
 import com.example.myapplication.Adapters.PaymentGetItemAdapter;
 import com.example.myapplication.Api.ApiClient;
 import com.example.myapplication.Api.ApiInterface;
 import com.example.myapplication.Api.SharedPreferencesStore;
 import com.example.myapplication.Model.PaymentItem;
-import com.example.myapplication.Model.VendorMainOnline;
 import com.example.myapplication.R;
 import com.example.myapplication.ShoppingCart.ActivityShoppingCart;
 import com.example.myapplication.Support.Support;
-import com.example.myapplication.activity_chilyo_main;
 import com.example.myapplication.activity_chilyo_order;
-import com.example.myapplication.activity_chilyo_payment;
-import com.example.myapplication.activity_chilyo_rating;
 import com.example.myapplication.activity_chilyo_topup;
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.location.places.ui.PlacePicker;
 
-import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.List;
 
 import retrofit2.Call;

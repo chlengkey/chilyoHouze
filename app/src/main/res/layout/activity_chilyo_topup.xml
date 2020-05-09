@@ -7,7 +7,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
-    tools:context=".activity_chilyo_payment">
+    tools:context=".activity_chilyo_topup">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -323,7 +323,7 @@
                 android:layout_marginStart="18dp"
                 android:layout_marginEnd="18dp"
                 android:fontFamily="@font/productsansbold"
-                android:text="- Masukkan 1124 6050 1234 9999"
+                android:text="- Masukkan (kode) 1124 6050 1234 9999"
                 android:textSize="18sp"/>
 
             <TextView

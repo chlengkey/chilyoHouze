@@ -54,7 +54,6 @@ public interface ApiInterface {
             @Field("shopcart_note") String shopcart_note
     );
 
-
     @GET("payment/checkPayment.php")
     Call<List<PaymentItem>> getPaymentItem(
             @Query("user") String user
